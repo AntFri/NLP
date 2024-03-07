@@ -3,7 +3,7 @@
 ### **Qué son los pipelines en spacy?**
 Es una secuencia de trabajos a la hora de utilizar Spacy (NLP), se puede elegir que tarea y en cual orden lo realiza, por ejemplo tokenizar, analisis sintactico, lematizar, etc
 
-¿qué diferencias hay entre usar?
+### **¿qué diferencias hay entre usar?**
 En el **spacy.blank("es")** nos crea una instacia bazia en el cual solo hay un tokenizador y podemos personalizar, a contrario en el **spacy.load("es_core_news_sm")** es un modelo completo en espanyol para poder processar directamente.
 
 ### **enumera algunos de los metodos mas importantes de los pipelines**
